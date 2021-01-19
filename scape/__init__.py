@@ -160,7 +160,7 @@ BOT_VER = os.environ.get("BOT_VER", "4.0")
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://i.ibb.co/HxjgDPm/Screenshot-20210119-134027.png"    
+    "ALIVE_LOGO") or "https://telegra.ph/file/44df5d3dd6452a5cff2df.png"    
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
