@@ -1,6 +1,6 @@
 # Project Openscape Remix
 
-![original repo here](https://github.com/sahyam2019/oub-remix)
+[original repo here](https://github.com/sahyam2019/oub-remix)
 
 ![logo](https://telegra.ph/file/44df5d3dd6452a5cff2df.png)
 
