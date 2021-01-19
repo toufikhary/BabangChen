@@ -1,16 +1,16 @@
 {
-  "name": "OPEN USERBOT REMIX",
-  "description": "[OUB-REMIX] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
+  "name": "OPEN scape REMIX",
+  "description": "[OUB-REMIX] A modular Telegram scape running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
   "logo": "https://telegra.ph/file/d201a0cc4d7d5f420c419.jpg",
   "keywords": [
     "telegram",
-    "userbot",
+    "scape",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sahyam2019/oub-remix",
-  "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
+  "repository": "https://github.com/Calliope-K/Scape-Remix",
+  "website": "https://telegra.ph/How-to-host-a-Telegram-scape-11-02",
   "success_url": "https://t.me/PPE_Support",
   "stack": "container",
   "env": {
@@ -47,7 +47,7 @@
       "value": "0"
     },
     "HEROKU_MEMEZ": {
-      "description": "This should be True if the userbot is running on a Heroku Dyno.",
+      "description": "This should be True if the scape is running on a Heroku Dyno.",
       "value": "True",
       "required": true
     },
@@ -56,7 +56,7 @@
       "value": ""
     },
     "HEROKU_APP_NAME": {
-      "description": "Add the Heroku app name here. It helps with userbot updates.",
+      "description": "Add the Heroku app name here. It helps with scape updates.",
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -190,11 +190,11 @@
       "required": false
     },
     "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
+      "description": "Set the default city for the scape's weather module.",
       "required": false
     },
     "LOGSPAMMER": {
-      "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
+      "description": "Set this to True in case you want the error logs to be stored in the scape log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
       "value": "True"
     },
     "ALIVE_LOGO": {

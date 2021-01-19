@@ -1,5 +1,5 @@
 [Unit]
-Description=Telegram UserBot Systemd Service
+Description=Telegram scape Systemd Service
 After=network.target
 
 [Install]

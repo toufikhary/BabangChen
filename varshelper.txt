@@ -3,13 +3,13 @@ API_KEY =
 API_HASH = 
 
 
-# Userbot Session String this var is important
+# scape Session String this var is important
 STRING_SESSION = 
 
 # Logging channel/group ID configuration. this var is important
 BOTLOG_CHATID = 
 
-# Userbot logging feature switch.
+# scape logging feature switch.
 BOTLOG = True or False
 LOGSPAMMER = True or False
 
@@ -29,9 +29,9 @@ Click on generate new token
 Enable this permissions:https://telegra.ph/file/0262c512e2b82fcd0260a.jpg
 
 # Custom (forked) repo URL for updater. this vars are important
-UPSTREAM_REPO_URL = https://github.com/mkaraniya/OpenUserBot.git
-REPO_URL = https://github.com/mkaraniya/OpenUserBot.git
-REPO_LINK = https://github.com/mkaraniya/OpenUserBot.git
+UPSTREAM_REPO_URL = https://github.com/mkaraniya/Openscape.git
+REPO_URL = https://github.com/mkaraniya/Openscape.git
+REPO_LINK = https://github.com/mkaraniya/Openscape.git
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = False
@@ -56,7 +56,7 @@ WEATHER_DEFCITY =
 # Lydia API
 LYDIA_API_KEY = 
 
-# set blacklist_chats where you do not want userbot's features
+# set blacklist_chats where you do not want scape's features
 UB_BLACK_LIST_CHAT = no need to change this value
     
 # Anti Spambot Config

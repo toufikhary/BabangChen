@@ -26,8 +26,8 @@ echo "$1=y" >> $prog_f
 
 # Welcome Message
 welcome() {
-    echo "*****Welcome to mkaraniya's userbot setup*****
-This Guided Setup shall help you get your own userbot up and running.
+    echo "*****Welcome to mkaraniya's scape setup*****
+This Guided Setup shall help you get your own scape up and running.
 You might be asked for sudo password several number of times."
 }
 
@@ -48,11 +48,11 @@ botclone() {
     cd ~
     echo "Cloning bot sources..."
     if [ -z "$bot_clone" ]; then
-        git clone https://github.com/mkaraniya/OpenUserBot -b sql-extended
+        git clone https://github.com/mkaraniya/Openscape -b sql-extended
         save_prog "bot_clone"
     fi
     echo "DONE!!"
-    cd Telegram-UserBot
+    cd Telegram-scape
 }
 
 # Requirement install function
@@ -125,18 +125,18 @@ LOGGER=$LOGGER
 LOGGER_GROUP=$LOGGER_GROUP
 OPEN_WEATHER_MAP_APPID=$OPEN_WEATHER_MAP_APPID
 DATABASE_URL=$DB_URI" >> config.env
-    sudo mv config.env ~/Telegram-UserBot
+    sudo mv config.env ~/Telegram-scape
     save_prog "gen_conf"
     fi
     echo "DONE!!"
 }
 
-#Generate the userbot.session
+#Generate the scape.session
 session() {
     echo "Generating session..."
     if [ -z "$sess" ]; then
         python3 windows_startup_script.py
-        python3.8 -m userbot test
+        python3.8 -m scape test
         save_prog "sess"
     fi
     echo "DONE!!"
@@ -149,8 +149,8 @@ dockerspin() {
     sudo systemctl start docker
     sudo systemctl enable docker
     sudo chmod 777 /var/run/docker.sock
-    cd ~/Telegram-UserBot
-    docker build -t userbot .
+    cd ~/Telegram-scape
+    docker build -t scape .
     save_prog "dock"
     fi
     echo "DONE!!"
@@ -160,11 +160,11 @@ dockerspin() {
 systemd() {
     echo "Sys service..."
     if [ -z "$sysserv" ]; then
-        sudo mv userbot /etc/systemd/system/userbot.service
+        sudo mv scape /etc/systemd/system/scape.service
         save_prog "sysserv"
     fi
-    sudo systemctl start userbot.service
-    sudo systemctl enable userbot.service
+    sudo systemctl start scape.service
+    sudo systemctl enable scape.service
     echo "DONE!!"
 }
 
