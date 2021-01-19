@@ -59,10 +59,10 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the scape from any chat.  """
     start = datetime.now()
-    await pong.edit("`pooong!`")
+    await pong.edit("`Anu... Duarrr!`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit("`Pong!\n%sms`" % (duration))
+    await pong.edit("`Anu... Duarrr!\n%sms`" % (duration))
 
 CMD_HELP.update(
     {"ping": "`.ping`\
