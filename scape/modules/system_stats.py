@@ -222,15 +222,15 @@ async def amireallyalive(alive):
     """ For .start command, check if the bot is running.  """
     logo = ALIVE_LOGO
     uptime = await get_readable_time((time.time() - StartTime))
-    output = (f"`🤖 STATUS: Scape-Remix is running ✅`\n"
-             f"`Telethon version`: {version.__version__} \n"
-             f"`Python version🐍`: {python_version()} \n"
-             f"`Bot Version🤘: Scape-Remix {BOT_VER}` \n"
-             f"==================================== \n"
-             f"`User 👨‍🚀`: {DEFAULTUSER} \n"
-             f"`Maintainer 🏄‍♂️`: @ScapeTea \n"
-             f"`Bot Uptime ⏱️`: {uptime} \n"
-             f"====================================\n")
+    output = (f"`STATUS: Scape-Remix Sudah Hidup`\n"
+             f"`Telethon Versi`: {version.__version__} \n"
+             f"`Python Versi`: {python_version()} \n"
+             f"`Bot Versi: Scape-Remix {BOT_VER}` \n"
+             f"============================ \n"
+             f"`Yang Pakai`: {DEFAULTUSER} \n"
+             f"`Yang Maintain`: @ScapeTea \n"
+             f"`Waktu bot': {uptime} \n"
+             f"===========================\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
