@@ -229,7 +229,7 @@ async def amireallyalive(alive):
              f"============================ \n"
              f"`Yang Pakai`: {DEFAULTUSER} \n"
              f"`Yang Maintain`: @ScapeTea \n"
-             f"`Waktu bot': {uptime} \n"
+             f"`Waktu bot`: {uptime} \n"
              f"===========================\n")
     if ALIVE_LOGO:
         try:
