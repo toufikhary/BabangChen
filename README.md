@@ -35,9 +35,9 @@ Deploy to Heroku:
 
 ## Groups and support
 
-If you want new features, or announcements, you can follow our [oub-remix Channel](https://t.me/oubremix).
+If you want new features, or announcements, you can follow our [scape-remix Channel](https://t.me/oubremix).
 
-For discussion, bug reporting, and help, you can join [oub-remix support Group](https://t.me/remixsupport).
+For discussion, bug reporting, and help, you can join [scape-remix support Group](https://t.me/remixsupport).
 
 ## How to setup Google Drive
 [![SetGDRIVE](https://telegra.ph/file/fde15d05e4bde3448b01a.png)](https://telegra.ph/How-To-Setup-Google-Drive-04-03)

@@ -1,6 +1,6 @@
 {
   "name": "OPEN scape REMIX",
-  "description": "[OUB-REMIX] A modular Telegram scape running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
+  "description": "[scape-remix] A modular Telegram scape running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
   "logo": "https://telegra.ph/file/d201a0cc4d7d5f420c419.jpg",
   "keywords": [
     "telegram",
@@ -160,7 +160,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[PM = Report Spam] I ❤ ️@oub-remix",
+      "value": "[PM = Report Spam] I ❤ ️@scape-remix",
       "required": false
     },
     "ALIVE_NAME": {

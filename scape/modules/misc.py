@@ -98,8 +98,8 @@ async def bot_community(community):
 async def bot_support(wannahelp):
     """ For .support command, just returns the group link. """
     await wannahelp.edit(
-        "Join the oub-remix Channel: @oub-remix \
-        \nJoin the oub-remix Chat: @remixsupport")
+        "Join the scape-remix Channel: @scape-remix \
+        \nJoin the scape-remix Chat: @remixsupport")
 
 
 @register(outgoing=True, pattern="^.creator$")
@@ -139,7 +139,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "Click [here](https://github.com/Calliope-K/Scape-Remix) to open oub-remix's GitHub page."
+        "Click [here](https://github.com/Calliope-K/Scape-Remix) to open scape-remix's GitHub page."
     )
 
     

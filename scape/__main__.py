@@ -26,7 +26,7 @@ except PhoneNumberInvalidError:
 for module_name in ALL_MODULES:
     imported_module = import_module("scape.modules." + module_name)
 
-LOGS.info(f"You are running oub-remix [{BOT_VER}]")
+LOGS.info(f"You are running scape-remix [{BOT_VER}]")
 
 LOGS.info(
     "Congratulations, your scape is now running !! Test it by typing .start/.ping in any chat."
